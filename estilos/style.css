@@ -1,0 +1,22 @@
+.img-container{
+    justify-content: left;
+    
+}
+
+img{
+    width: 150px;
+}
+
+.Cabecera{
+    background-color: red;
+}
+
+h1{
+    color: white;
+
+}
+.footer{
+    background-color: red;
+}
+
+
