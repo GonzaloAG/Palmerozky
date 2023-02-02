@@ -15,8 +15,35 @@ h1{
     color: white;
 
 }
-.footer{
+
+.footer-style {
+    padding-top: 50px;
     background-color: red;
 }
 
+@media(min-width: 576px){
+#contacto{
+    text-align: left;
+    display: flex;
+    margin-left: 20px;
+}
+}
+
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 10px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+}
+footer .footer-col {
+  margin-bottom: 20px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: red;
+}
 
