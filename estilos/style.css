@@ -70,44 +70,51 @@ h1{
 
 
 
-  .footer-style {
+.footer-style {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     background-color: red;
 }
 
 
 #contacto{
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 
 .footer-style {
   color: white;
   padding-bottom: 5px;
 }
+
 footer h3 {
   margin-bottom: 10px;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
 }
+
 footer .footer-above {
   padding-top: 50px;
 }
+
 footer .footer-col {
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
+
 footer .footer-below {
   padding: 25px 0;
   background-color: red;
 }
   
-  #instagram{
+#instagram{
       width: 100px;
-    }
+}
   
-  #tiktok{
+#tiktok{
    width: 100px;
   }
 
-  #youtube{
+#youtube{
    width: 100px;
-  }
+}

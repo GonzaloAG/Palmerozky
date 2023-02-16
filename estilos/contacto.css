@@ -1,11 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    color: white;
-}
-
 body{
     width: 100%;
     height: 100%;
@@ -46,6 +38,7 @@ h2{
     position: relative;
     padding: 0 0 10px;
     margin-bottom: 10px;
+    color: white;
 }
 
 h2:after{
@@ -73,17 +66,17 @@ h2:after{
 }
 
 .field:hover{
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #332F2E;
 }
 
 textarea{
 	min-height: 150px;
 }
 
-.boton{
+.button{
+    background-color: red;
 	width: 100%;
 	padding: 0.5rem 1rem;
-	color: #fff;
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -91,8 +84,8 @@ textarea{
 	transition: .3s;
 }
 
-.boton:hover{
-    background-color: #756E97;
+.button:hover{
+    background-color: #800200;
 }
 
 .field:focus{
